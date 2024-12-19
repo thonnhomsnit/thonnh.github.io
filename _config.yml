@@ -1,12 +1,1 @@
-title: Just the Docs
-description: A Jekyll theme for documentation
-baseurl: "" # the subpath of your site, e.g. /blog
-
-permalink: pretty
-
-defaults:
-  - scope:
-      path: "docs" # an empty string here means all files in the project
-      type: "pages"
-    values:
-      layout: "default"
+remote_theme: just-the-docs/just-the-docs
