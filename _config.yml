@@ -6,6 +6,3 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-
-includes:
-  - mathjax_support.html
