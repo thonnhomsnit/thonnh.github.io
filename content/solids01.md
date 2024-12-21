@@ -36,7 +36,7 @@ $$
 
 Where:
 
-- $a_i$ represents the components of the vector **a**.  
+- $a_i$ represents the components of the vector $\mathbf{a}$.  
 - The index $i$ runs over the specified dimensions (e.g., \( 1, 2, 3 \) for three-dimensional space).  
 
 This convention is widely used in **_continuum mechanics_**, **_solid mechanics_**, and **_tensor analysis_** to simplify and generalize expressions.
