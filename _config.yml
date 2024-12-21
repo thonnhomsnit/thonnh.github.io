@@ -5,6 +5,12 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-kramdown:
-  math_engine: mathjax
+markdown: kramdown
 
+    kramdown: 
+
+      input: GFM
+
+      hard_wrap: false
+
+      math_engine: MathJax
