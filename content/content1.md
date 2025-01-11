@@ -28,12 +28,22 @@ $$
 f(x,y) = Sum[Mul[x, x], Sum[Mul[x, y], 1]]
 $$
 
+or
+
+$$
+f(x,y) = Sum[Pow[x, 2], Sum[Mul[x, y], 1]]
+$$
+
 $$
 \frac{d}{d\psi} Sum[a, b] = \frac{da}{d\psi} + \frac{db}{d\psi}
 $$
 
 $$
 \frac{d}{d\psi} Mul[a, b] = a\frac{db}{d\psi} + b\frac{da}{d\psi}
+$$
+
+$$
+\frac{d}{d\psi} Pow[base, constant] = constant \cdot base^{constant - 1}
 $$
 
 $$
